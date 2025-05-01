@@ -1,5 +1,7 @@
 # Welcome to your Lovable project
 
+http://10.181.121.15:8080/
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/667e16cd-6cde-43b1-8e63-82734f156a0b

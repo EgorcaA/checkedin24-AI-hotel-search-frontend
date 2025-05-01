@@ -2,7 +2,7 @@ import { Hotel, HotelResponse } from "../types/hotel";
 
 const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL ||
-  "https://checkedin24-aihotelsearch.vercel.app/";
+  "https://checkedin24-ai-hotel-search-backend.fly.dev";
 // import.meta.env.VITE_API_BASE_URL || "http://localhost:8000";
 
 // Get hotels based on user prompt
