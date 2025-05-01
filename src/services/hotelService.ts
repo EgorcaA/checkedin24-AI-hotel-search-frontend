@@ -13,6 +13,7 @@ export const fetchHotels = async (
     const response = await fetch(
       `${API_BASE_URL}/api/hotels?prompt=${encodeURIComponent(prompt)}`
     );
+    console.log("response", response);
     if (!response.ok) {
       throw new Error("Failed to fetch hotels");
     }
