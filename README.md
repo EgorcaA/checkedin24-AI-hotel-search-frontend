@@ -2,6 +2,12 @@
 
 http://10.181.121.15:8080/
 
+Just like we did with the backend, let's change the remote URL from HTTPS to SSH to avoid authentication prompts:
+git remote set-url origin git@github.com:EgorcaA/checkedin24-AI-hotel-search-frontend.git && git remote -v | cat
+
+Now let's test pulling from the repository to make sure everything works:
+git pull origin main | cat
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/667e16cd-6cde-43b1-8e63-82734f156a0b
